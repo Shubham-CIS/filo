@@ -169,8 +169,6 @@ function Login2() {
             </div>
             <Box
               sx={{
-                my: 8,
-                mx: 4,
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center',
@@ -180,12 +178,12 @@ function Login2() {
 
 
               <Box component="form" noValidate sx={{ mt: 1 }}>
-                <div className='mb-30'>
+                <div className='mb-20'>
                   <h2 className='title2'>How do you want study today?</h2>
                 </div>
 
 
-                <div className='mb-30'>
+                <div className='mb-20'>
                   <List sx={{ width: '100%', bgcolor: 'background.paper' }} className="loginselectList">
                     <ListItem alignItems="flex-start" className='activeList'>
                       <span className='lsl-icon'>

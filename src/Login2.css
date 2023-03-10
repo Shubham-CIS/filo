@@ -38,19 +38,13 @@
     left: 0;
     z-index: 1;
 }
-.formblock {
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
 .form-wrap form {
     width: 100%;
 }
 .mb-30  {
     margin-bottom: 30px;
 }
-.form-wrap {
-    padding: 2.5%;
-}
+
 .numbox  fieldset {
     border-style: solid solid solid none;
     border-top-left-radius: 0px;
@@ -87,7 +81,7 @@
     cursor: pointer;
 }
 .loginselectList li:not(:last-child) {
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 .loginselectList li.activeList {
     background: #0F4D92;
@@ -118,14 +112,14 @@ html[dir="ltr"] .flagdrop {
 }
 
 
-@media(max-width: 1199px) {
+@media(max-width: 1600px) {
     .loginselectList h2 {
-        font-size: 28px;
+        font-size: 1.6rem;
     }
     .loginselectList li {
         padding: 20px;
     }
     .loginselectList li:not(:last-child) {
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
 }

@@ -11,14 +11,14 @@
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
 }
-.or_divider {
+.cis-divider {
     position: relative;
     display: flex;
     align-items: center;
     width: 100%;
 }
-.or_divider:before,
-.or_divider:after {
+.cis-divider:before,
+.cis-divider:after {
     content: "";
     display: block;
     flex: 1 1 auto;
@@ -26,12 +26,19 @@
     background: #aeaeae;
     width: 50%;
 }
-.or_divider span {
+.cis-divider span {
     padding: 0 8px;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 500;
     white-space: nowrap;
 }
+.cis-btn {
+    margin: 20px 0 !important;
+}
+.cis-country-code * {
+    border-style: none !important;
+}
+
 .flagdrop {
     position: absolute;
     top: 0;
@@ -45,14 +52,33 @@
 .form-wrap form {
     width: 100%;
 }
-.mb-30  {
-    margin-bottom: 30px;
-}
+
 .form-wrap {
     padding: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 85vh;
 }
 .numbox  fieldset {
     border-style: solid solid solid none;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
 }
+.cis-notrobot {
+    
+}
+.cis-notrobot img {
+    max-width: 60%;
+}
+.form-wrap {
+
+}
+html[dir="rtl"] .cis-enter-number>div {
+    flex-direction: row-reverse;
+    padding-right: 0;
+}
+html[dir="ltr"] .cis-enter-number>div input {
+    text-align:right;    
+}
+

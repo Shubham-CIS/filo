@@ -3,9 +3,12 @@
 }
 
 /* main Header */
+
 .mainHeader {
     padding: 16px 0;
+    box-shadow: 3px 3px 26px rgb(0 0 0 / 12%);
 }
+
 .mainHeader .row {
     display: flex;
 }
@@ -20,4 +23,62 @@
 
 .loginuser-menu > img {
     border-radius: 50%;
+}
+.loginuser-menu-wrap li .MuiListItemIcon-root img {
+    width: 22px;
+}
+.loginuser-menu-wrap li  {
+    color: #005DB8;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.icon-btn {
+    background-color: #005DB8 !important;
+    color: #ffffff !important;
+    margin: 0 20px !important;
+}
+
+.txt-btn {
+    font-size: 20px;
+    font-weight: 700;
+}
+.welcome-user {
+    background: #FCFCFC;
+    padding: 60px 50px;
+}
+.welcome-box-wrap {
+    position: relative;
+    z-index: 1;
+    margin-top: -130px;
+    box-shadow: 3px 3px 26px rgba(0, 0, 0, 0.12);
+    background: #ffffff;
+}
+.welcome-user h1 {
+    margin: 0 0 10px;
+}
+.whitebox-wrap {
+    padding: 50px;
+}
+.upload-photo {
+    padding: 0 !important;
+    width: 100%;
+}
+.upload-photo>div {
+    border: 1px dashed #0C70D2;
+    padding: 20px 15px;
+    text-align: center;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.upload-photo>div span {
+    font-size: 18px;
+    display: block;
+    color: #999999;
+    font-weight: 500;
+}
+.upload-photo p {
+    margin: 0;
+    color: #999999;
 }

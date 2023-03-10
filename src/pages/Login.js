@@ -10,6 +10,20 @@ import Select from '@mui/material/Select';
 import MenuItem from '@mui/material/MenuItem';
 import Menu from '@mui/material/Menu';
 
+
+import IconButton from '@mui/material/IconButton';
+import Input from '@mui/material/Input';
+import FilledInput from '@mui/material/FilledInput';
+import OutlinedInput from '@mui/material/OutlinedInput';
+import InputLabel from '@mui/material/InputLabel';
+import InputAdornment from '@mui/material/InputAdornment';
+import FormHelperText from '@mui/material/FormHelperText';
+import FormControl from '@mui/material/FormControl';
+// import TextField from '@mui/material/TextField';
+import Visibility from '@mui/icons-material/Visibility';
+import VisibilityOff from '@mui/icons-material/VisibilityOff';
+
+
 function Login() {
 
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -162,10 +176,9 @@ function Login() {
               </MenuItem>
             </Menu>
           </div>
+
             <Box
               sx={{
-                my: 8,
-                mx: 4,
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center',
@@ -175,30 +188,28 @@ function Login() {
 
 
               <Box component="form" noValidate sx={{ mt: 1 }}>
-                <div className='mb-30'>
+                <div className='mb-20'>
                   
                   <h2 className='title2'>Login</h2> 
                   <p className='title-info '>We will send an OTP via SMS on the phone number</p>
                 </div>
-                <div fullWidth className='number-wrap mb-30'>
-                  <Select className='numbox'>
-                    <MenuItem value='+965'>+965</MenuItem>
-                    <MenuItem value='+92'>+92</MenuItem>
-                  </Select>
-                  <TextField
-                    margin="normal"
-                    required
-                    fullWidth
-                    name="text"
-                    label="Enter your mobile number"
-                    type="text"
-                    className='numberfield'
+                <div fullWidth className='mb-20'>
+                <FormControl variant="outlined" fullWidth className='cis-enter-number'>
+                  <OutlinedInput id="standard-adornment-amount"
+                    endAdornment={<InputAdornment position="end">
+                      <Select className='cis-country-code' defaultValue={1}>
+                        <MenuItem value='1'>+965</MenuItem>
+                        <MenuItem value='2'>+92</MenuItem>
+                      </Select>
+                      </InputAdornment>}
+                      label="Enter your mobile number"
                   />
+                  <InputLabel htmlFor="standard-adornment-amount">Enter your mobile number</InputLabel>
+                </FormControl>
                 </div>
 
-                <div className='mb-30'>
+                <div className='cis-notrobot'>
                   <img src='../../images/notrobot.png' alt=""/>
-
                 </div>
                 
                 <Button
@@ -208,23 +219,25 @@ function Login() {
                   sx={{ mt: 3, mb: 3,pt:1.5, pb:1.5, fontSize: '20px', textTransform: "none" }}
                   size="large"
                   href='/login2'
+                  className='cis-btn'
                 >
                   Send OTP
                 </Button>
-                <Grid container className='or_divider-wrap'>
-
-                  <div className='or_divider'>
+                <Grid container className='cis-divider-wrap'>
+                  <div className='cis-divider'>
                     <span>Or login using</span>
                   </div>
 
                 </Grid>
 
-                <div>
-                <Button variant="outlined" fullWidth sx={{ mt:5, pt:2, pb:2 }} size="large">
+                <div className='mt-20'>
+                <Button variant="outlined" fullWidth sx={{ pt:1.5, pb:1.5 }} size="large">
                   <img src='../../images/login-by-google.png' alt="alt" />
                 </Button>
+                </div>
+                <div className='mt-20'>
 
-                <Button variant="outlined" fullWidth sx={{ mt:5, pt:2, pb:2 }} size="large">
+                <Button variant="outlined" fullWidth sx={{ pt:1.5, pb:1.5 }} size="large"  className='mt-20'>
                   <img src='../../images/Scanthecode.png' alt="alt" /> &nbsp; Scan the code
                 </Button>
                 </div>
