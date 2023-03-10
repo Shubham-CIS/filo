@@ -17,9 +17,9 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Login />} />
-        <Route path="/login2" element={<Login2 />} />
+        <Route path="https://main--starlit-muffin-ae27c3.netlify.app/login2" element={<Login2 />} />
         {/* <Route path="/login3" element={<Login3 />} /> */}
-        <Route path="/quick-call-dashboard" element={<QuickCallDashboard />} />
+        <Route path="https://main--starlit-muffin-ae27c3.netlify.app/quick-call-dashboard" element={<QuickCallDashboard />} />
         
       </Routes>
     </BrowserRouter>
