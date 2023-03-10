@@ -1,0 +1,23 @@
+.cloud-img {
+    width: 100%;
+}
+
+/* main Header */
+.mainHeader {
+    padding: 16px 0;
+}
+.mainHeader .row {
+    display: flex;
+}
+.mainHeader .col-right {
+    text-align: left;
+}
+.col-left ,
+.col-right {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.loginuser-menu > img {
+    border-radius: 50%;
+}

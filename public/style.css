@@ -8,7 +8,7 @@ html[dir="rtl"] * {
 .container {
     max-width: 1500px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 5%;
 }
 .row {
     display: flex;
@@ -19,6 +19,7 @@ html[dir="rtl"] * {
     font-weight: 500;
     color: #000000;
     margin: 0 0 5px;
+    line-height: 1.3;
 }
 .title-info {
     color: #999999;
@@ -27,4 +28,11 @@ html[dir="rtl"] * {
 }
 .form-wrap {
     position: relative;
+}
+
+
+@media(max-width: 1199px) {
+    .title2 {
+        font-size: 40px;
+    }
 }

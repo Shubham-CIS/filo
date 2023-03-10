@@ -40,7 +40,7 @@
 }
 .formblock {
     margin-top: 50px;
-
+    margin-bottom: 50px;
 }
 .form-wrap form {
     width: 100%;
@@ -55,4 +55,77 @@
     border-style: solid solid solid none;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
+}
+
+
+.loginselectList h2 {
+    color: #000000;
+    margin: 0;
+    font-size: 30px;
+    font-weight: 500;
+}
+.loginselectList .activeList h2 {
+    color: #ffffff;
+}
+.loginselectList p {
+    color: #000000;
+    margin: 0;
+    font-size: 18px;
+}
+.loginselectList .activeList p {
+    color: #ffffff;
+}
+.loginselectList {
+    
+}
+.loginselectList li {
+    width: 100%;
+    padding: 24px;
+    border: 1px solid #DDDDDD;
+    border-radius: 12px;
+    background-color: #FCFCFC;
+    cursor: pointer;
+}
+.loginselectList li:not(:last-child) {
+    margin-bottom: 60px;
+}
+.loginselectList li.activeList {
+    background: #0F4D92;
+}
+.loginselectList .lsl-content {
+    width: calc(100% - 30px);
+    flex: 0 0 calc(100% - 30px);
+}
+.loginselectList .lsl-icon {
+    width: 30px;
+    flex: 0 0 30px;
+    padding: 10px 0 0;
+}
+
+html[dir="rtl"] .loginselectList .lsl-content {
+    text-align: right;
+    padding-right: 15px;
+}
+
+html[dir="ltr"] .loginselectList .lsl-content {
+    text-align: left;
+    padding-left: 15px;
+}
+html[dir="ltr"] .flagdrop {
+    position: absolute;
+    left: auto;
+    right: 0;
+}
+
+
+@media(max-width: 1199px) {
+    .loginselectList h2 {
+        font-size: 28px;
+    }
+    .loginselectList li {
+        padding: 20px;
+    }
+    .loginselectList li:not(:last-child) {
+        margin-bottom: 30px;
+    }
 }
