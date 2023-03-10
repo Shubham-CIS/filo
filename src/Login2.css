@@ -1,0 +1,58 @@
+.number-wrap {
+    display: flex;
+    background: #FAFAFA;
+}
+.number-wrap .numberfield {
+    margin: 0 -2px 0 0 ;
+}
+
+.number-wrap .numberfield fieldset {
+    border-right-style: none;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.or_divider {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.or_divider:before,
+.or_divider:after {
+    content: "";
+    display: block;
+    flex: 1 1 auto;
+    height: 1px;
+    background: #aeaeae;
+    width: 50%;
+}
+.or_divider span {
+    padding: 0 8px;
+    font-size: 25px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+.flagdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.formblock {
+    margin-top: 50px;
+
+}
+.form-wrap form {
+    width: 100%;
+}
+.mb-30  {
+    margin-bottom: 30px;
+}
+.form-wrap {
+    padding: 2.5%;
+}
+.numbox  fieldset {
+    border-style: solid solid solid none;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
