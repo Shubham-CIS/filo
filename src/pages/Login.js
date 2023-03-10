@@ -207,7 +207,7 @@ function Login() {
                   variant="contained"
                   sx={{ mt: 3, mb: 3,pt:1.5, pb:1.5, fontSize: '20px', textTransform: "none" }}
                   size="large"
-                  // href='login-select-module'
+                  href='/login2'
                 >
                   Send OTP
                 </Button>
