@@ -197,7 +197,7 @@ function Login() {
                 </div>
 
                 <div className='mb-30'>
-                  <img src='../../images/notrobot.png'/>
+                  <img src='../../images/notrobot.png' alt=""/>
 
                 </div>
                 
@@ -221,11 +221,11 @@ function Login() {
 
                 <div>
                 <Button variant="outlined" fullWidth sx={{ mt:5, pt:2, pb:2 }} size="large">
-                  <img src='../../images/login-by-google.png' alt="" />
+                  <img src='../../images/login-by-google.png' alt="alt" />
                 </Button>
 
                 <Button variant="outlined" fullWidth sx={{ mt:5, pt:2, pb:2 }} size="large">
-                  <img src='../../images/Scanthecode.png' alt="" /> &nbsp; Scan the code
+                  <img src='../../images/Scanthecode.png' alt="alt" /> &nbsp; Scan the code
                 </Button>
                 </div>
                   
