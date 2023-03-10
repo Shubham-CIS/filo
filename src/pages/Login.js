@@ -10,6 +10,8 @@ import Select from '@mui/material/Select';
 import MenuItem from '@mui/material/MenuItem';
 import Menu from '@mui/material/Menu';
 
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+
 
 // import IconButton from '@mui/material/IconButton';
 // import Input from '@mui/material/Input';
@@ -59,6 +61,7 @@ function Login() {
           <Grid item xs={12} sm={12} md={6} square className='form-wrap'>
           <div className='flagdrop'>
             <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}>
+              <KeyboardArrowDownIcon />
               <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M31.4482 26.4827H0.551749C0.247062 26.4827 0 26.2357 0 25.931V6.06896C0 5.76427 0.247062 5.51721 0.551749 5.51721H31.4483C31.7529 5.51721 32 5.76427 32 6.06896V25.931C31.9999 26.2357 31.7529 26.4827 31.4482 26.4827Z" fill="#F5F5F5" />
                 <path d="M31.9999 7.13002H0V6.06896C0 5.76427 0.247062 5.51721 0.551749 5.51721H31.4483C31.7529 5.51721 32 5.76427 32 6.06896L31.9999 7.13002Z" fill="#FF4B55" />
