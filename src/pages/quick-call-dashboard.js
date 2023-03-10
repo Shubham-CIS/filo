@@ -17,14 +17,6 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import LogoutIcon from '@mui/icons-material/Logout';
 
 
-{/* <svg width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M2.29801 7.33337L1.38135 2.29171L3.90218 4.58337L5.50635 1.83337L7.11051 4.58337L9.63135 2.29171L8.71468 7.33337H2.29801ZM8.71468 8.70837C8.71468 8.98337 8.53135 9.16671 8.25635 9.16671H2.75635C2.48135 9.16671 2.29801 8.98337 2.29801 8.70837V8.25004H8.71468V8.70837Z" fill="white"/>
-</svg> */}
-
-
-
-
-
 function QuickCallDashboard() {
 
 
@@ -62,24 +54,19 @@ function QuickCallDashboard() {
                   open={Boolean(anchorEl)}
                   onClose={handleClose}
                 >
-                  
-                    <MenuItem disablePadding>
-                      {/* <ListItemButton> */}
-                        Logout
-                        <ListItemIcon>
-                          <LogoutIcon />
-                        </ListItemIcon>
-                      {/* </ListItemButton> */}
-                    </MenuItem>
-                    <MenuItem disablePadding>
-                      {/* <ListItemButton> */}
-                        <ListItemIcon>
-                            <img src='../../images/icon/4.svg' alt='' />
-                        </ListItemIcon>
-                        Get YASAPRO
-                      {/* </ListItemButton> */}
-                    </MenuItem>
-                  {/* </List> */}
+
+                  <MenuItem disablePadding>
+                    Logout
+                    <ListItemIcon>
+                      <LogoutIcon />
+                    </ListItemIcon>
+                  </MenuItem>
+                  <MenuItem disablePadding>
+                    {/* <ListItemIcon> */}
+                      <img src='../../images/icon/4.svg' alt='' />
+                    {/* </ListItemIcon> */}
+                    Get YASAPRO
+                  </MenuItem>
                 </Menu>
               </div>
             </div>
