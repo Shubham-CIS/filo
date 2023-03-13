@@ -203,7 +203,7 @@ function Login() {
                     startAdornment={<InputAdornment position="start" >
                       <Select className='cis-country-code' defaultValue={1}>
                         <MenuItem value='1'>+965</MenuItem>
-                        <MenuItem value='2'>+92</MenuItem>
+                        <MenuItem value='2'>+91</MenuItem>
                       </Select>
                       </InputAdornment>}
                       label=""
