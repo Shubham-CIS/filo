@@ -41,10 +41,18 @@ html[dir="rtl"] * {
 .mt-30 {
     margin-top: 30px;
 }
+.mb-0 {
+    margin-bottom: 0;
+}
 
 
 @media(max-width: 1600px) {
     .title2 {
         font-size: 2.2rem;
+    }
+}
+@media(max-width: 1199px) {
+    .container {
+        max-width: 90%;
     }
 }

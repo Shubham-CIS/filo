@@ -76,20 +76,5 @@
 .form-wrap {
 
 }
-/* html[dir="rtl"] .cis-enter-number>div {
-    flex-direction: row-reverse;
-    padding-right: 0;
-} */
-/* html[dir="ltr"] .cis-enter-number>div input {
-    text-align:right;    
-}
-
-html[dir="ltr"] .cis-enter-number>div {
-    flex-direction: row-reverse;
-} */
 
 
-.cis-enter-number ::placeholder {
-    
-    
-  }

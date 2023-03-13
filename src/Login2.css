@@ -60,7 +60,7 @@
     font-size: 30px;
     font-weight: 500;
 }
-.loginselectList .activeList h2 {
+.loginselectList li:hover h2 {
     color: #ffffff;
 }
 .loginselectList p {
@@ -68,11 +68,11 @@
     margin: 0;
     font-size: 18px;
 }
-.loginselectList .activeList p {
+.loginselectList li:hover p {
     color: #ffffff;
 }
-.loginselectList {
-    
+.loginselectList li:hover .lsl-icon img {
+    filter: brightness(1)contrast(100);
 }
 .loginselectList li {
     width: 100%;
@@ -85,7 +85,7 @@
 .loginselectList li:not(:last-child) {
     margin-bottom: 30px;
 }
-.loginselectList li.activeList {
+.loginselectList li:hover {
     background: #0F4D92;
 }
 .loginselectList .lsl-content {
