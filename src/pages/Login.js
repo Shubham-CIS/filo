@@ -17,7 +17,7 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 // import Input from '@mui/material/Input';
 // import FilledInput from '@mui/material/FilledInput';
 import OutlinedInput from '@mui/material/OutlinedInput';
-import InputLabel from '@mui/material/InputLabel';
+// import InputLabel from '@mui/material/InputLabel';
 import InputAdornment from '@mui/material/InputAdornment';
 // import FormHelperText from '@mui/material/FormHelperText';
 import FormControl from '@mui/material/FormControl';
@@ -199,15 +199,23 @@ function Login() {
                 <div fullWidth className='mb-20'>
                 <FormControl variant="outlined" fullWidth className='cis-enter-number'>
                   <OutlinedInput id="standard-adornment-amount"
-                    endAdornment={<InputAdornment position="end">
+                  placeholder="Enter your mobile number"
+                    startAdornment={<InputAdornment position="start" >
                       <Select className='cis-country-code' defaultValue={1}>
                         <MenuItem value='1'>+965</MenuItem>
                         <MenuItem value='2'>+92</MenuItem>
                       </Select>
                       </InputAdornment>}
-                      label="Enter your mobile number"
+                      label=""
+                      sx={{input: {
+                              color: '#999999',
+                              "&::placeholder": {    // <----- Add this.
+                                opacity: 1,
+                              },
+                          },
+                    }}
                   />
-                  <InputLabel htmlFor="standard-adornment-amount">Enter your mobile number</InputLabel>
+                      {/* <InputLabel htmlFor="standard-adornment-amount" placeholder="Test"></InputLabel> */}
                 </FormControl>
                 </div>
 

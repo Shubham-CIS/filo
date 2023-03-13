@@ -110,7 +110,7 @@ html[dir="ltr"] .loginselectList .lsl-content {
 html[dir="ltr"] .flagdrop {
     position: absolute;
     left: auto;
-    right: 0;
+    right: 15px;
 }
 
 
