@@ -136,9 +136,16 @@
     font-size: 16px !important;
 }
 
-.MuiButton-outlinedPrimary {
+.cis-title-2col .MuiButton-outlinedPrimary {
+    border-color: #005DB8 !important;
+    text-transform: none !important;
+    font-size: 18px !important;
+}
+.cis-btn-group .MuiButton-outlinedPrimary {
     border-color: #005DB8 !important;
     color: #005DB8 !important;
+}
+.cis-btn-group .MuiButtonBase-root {
     text-transform: none !important;
     font-size: 18px !important;
 }
@@ -261,6 +268,7 @@
 }
 .cis-tabs  .MuiTab-root {
     font-size: 18px;
+    text-transform: none;
 }
 .m-0 {
     margin: 0;
@@ -357,11 +365,15 @@
         padding-left: 10%;
     }
 }
-@media(max-width:991px) {
-    [dir="rtl"] .cis-teacher-card { padding-right: 0;}
-    [dir="ltr"] .cis-teacher-card { padding-left: 0;}
+@media(max-width:899px) {
+    [dir="rtl"] .cis-teacher-card { padding-right: 0; border-right: 0px}
+    [dir="ltr"] .cis-teacher-card { padding-left: 0; border-left: 0px}
     .cis-teacher-card {
         border: 1px solid #CCCCCC;
         border-style: none none solid;
+        padding-bottom: 40px;
+    }
+    .cis-space-50 {
+        height: 30px;
     }
 }

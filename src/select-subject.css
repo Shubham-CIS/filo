@@ -1,0 +1,61 @@
+.cis-btn-wrap .MuiButton-outlinedPrimary.cis-selected {
+    border-color: #005DB8 !important;
+    color: #005DB8 !important;
+}
+.MuiButton-containedPrimary.cis-btn-red {
+    background-color: #EB0029 !important;
+    border-color: #EB0029 !important;
+}
+.MuiButton-containedPrimary.cis-btn-red:hover {
+    background-color: #d90528 !important;
+    border-color: #d90528 !important;
+}
+.cis-wait-box {
+    background: #F8F8F8;
+    padding: 40px;
+    max-width: 250px;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 12px;
+}
+.cis-wait-box-2 {
+    background: #E6EFF8;
+    padding: 40px;
+    border-radius: 12px;
+}
+.cis-wait-box-3 {
+    background: #B0CDE9;
+    padding: 40px;
+    border-radius: 12px;
+}
+.cis-wait-box span { 
+    font-size: 22px;
+    font-weight: 700;
+    background-color: #ffffff;
+    display: inline-flex;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    position: relative;
+    z-index: 2;
+}
+.cis-wait-box span>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+.cis-dialog-1 .MuiDialog-paper {
+    max-width: 500px;
+    width: 100%;
+    padding: 20px;
+}
+.cis-dialog-1 .MuiTypography-h6 {
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,156 @@
+.cis-tab-btns {
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+.cis-tab-btns .cis-label-btn {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #CCCCCC;
+    color: #888888;
+}
+.mt-0 {
+    margin-top: 0 !important;
+}
+.pt-0 {
+    padding-top: 0 !important;
+}
+.cis-schedule-cards .cis-tabs .MuiTab-root {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.cis-schedule-cards .cis-tabs .MuiButton-endIcon {
+    margin-left: 0;
+    margin-right: 5px;
+}
+.cis-tab-btns .MuiButton-outlined {
+    border-color: #CCCCCC;
+    color: #888888;
+}
+.cis-filter-btn {
+    position: relative;
+}
+
+.cis-filter-btn .MuiPopper-root {
+    position: absolute !important;
+    top: 100% !important;
+    z-index: 5;
+}
+
+.cis-filter-btn .MuiButton-outlined {height: 50px;}
+
+.cis-label-btn .MuiSwitch-track {
+    height: 21px;
+    position: relative;
+    top: -3px;
+    border-radius: 12px;
+}
+.cis-join-now-btn {
+    background-color: #005DB8 !important;
+    color: #FFFFFF;
+}
+.cis-tab-schedule .cis-card p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+[dir="rtl"] .cis-tab-schedule  .cis-card .MuiCardContent-root {
+    padding-right: 0 !important;
+}
+[dir="ltr"] .cis-tab-schedule  .cis-card .MuiCardContent-root {
+    padding-left: 0 !important;
+}
+.schedule-card {
+}
+.cis-schedule-card {
+    margin-top: 40px;
+}
+
+.cis-schedule-card .cis-card .MuiTypography-h5 {
+    margin-bottom: 5px;
+}
+
+.cis-schedule-card .cis-Chips-2 {
+    margin-bottom: 10px;
+}
+.cis-schedule-card .cis-teacher-card .MuiButton-outlinedPrimary {
+    border-color: #005DB8 !important;
+    color: #005DB8 !important;
+}
+.cis-schedule-card .cis-teacher-card span.MuiRating-root {
+    margin-bottom: 10px;
+    font-size: 16px;
+    width: 100%;
+}
+.cis-schedule-card .cis-teacher-card .cis-content h5 {
+    margin-bottom: 5px;
+}
+ .cis-schedule-card .cis-card .MuiCardContent-root {
+    padding: 0 !important;
+}
+.cis-schedule-card {
+    background: #fcfcfc;
+    padding: 20px 45px;
+    margin-top: 35px;
+    border: 1px solid #005DB8;
+    border-radius: 10px;
+}
+.cis-schedule-card .MuiPaper-root {
+    background-color: transparent;
+    padding-left: 10%;
+}
+.cis-teacher-card .cis-content {
+    text-align: left;
+}
+.cis-info-list {
+    margin-bottom: 0;
+}
+.cis-info-list li>svg {
+    font-size: inherit;
+    margin-right: 7px;
+    align-self: center;
+}
+
+.cis-info-list li {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 7px;
+}
+.cis-ongoing-btn {
+    background: #CCCCCC !important;
+    color: #FFFFFF !important;
+}
+.cis-ongoing-btn:hover,
+.cis-ongoing-btn:focus {
+    background: #bdbbbb !important;
+}
+.cis-schedule-btn {
+    background: #EE7E16 !important;
+    color: #FFFFFF !important;
+}
+.cis-schedule-btn:hover,
+.cis-schedule-btn:focus {
+    background: #dc7311 !important;
+}
+.cis-complete-btn {
+    background: #26B377 !important;
+    color: #FFFFFF !important;
+}
+.cis-complete-btn:hover,
+.cis-complete-btn:focus {
+    background: #20a56c !important;
+    color: #FFFFFF !important;
+}
+
+
+@media(max-width:1199px) {
+    .cis-schedule-card {
+        padding: 20px 20px;
+    }
+}
+@media(max-width:899px) {
+    .cis-schedule-card .cis-teacher-card {
+        padding-bottom: 20px;
+        border-style: solid none none;
+    }
+}
+

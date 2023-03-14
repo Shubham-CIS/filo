@@ -1,0 +1,78 @@
+.cis-Chips-2 .MuiChip-root {
+    font-size: 16px;
+    color: #999999;
+    border-radius: 5px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    padding: 0;
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+.cis-Chips-2 .MuiChip-root .MuiChip-label {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+[dir="ltr"] .cis-Chips-2 .MuiChip-icon {
+    margin-left: 0;
+    margin-right: 4px;
+}
+[dir="ltr"] .cis-Chips-2 .MuiChip-root { 
+    margin-right: 15px;
+}
+[dir="rtl"] .cis-Chips-2 .MuiChip-root { 
+    margin-left: 15px;
+}
+.cis-Chips-2 .MuiChip-root svg {
+    font-size: inherit;
+}
+[dir="rtl"] .cis-Chips-2 .MuiChip-root svg {
+    margin-right: 0 !important;
+}
+[dir="ltr"] .cis-Chips-2 .MuiChip-root svg {
+    margin-left: 0 !important;
+}
+.cis-private-class .cis-card .MuiTypography-h5 {
+    margin-bottom: 5px;
+}
+
+.cis-private-class .cis-Chips-2 {
+    margin-bottom: 10px;
+}
+.cis-private-class .cis-teacher-card .MuiButton-outlinedPrimary {
+    border-color: #005DB8 !important;
+    color: #005DB8 !important;
+}
+.cis-private-class .cis-teacher-card span.MuiRating-root {
+    margin-bottom: 10px;
+    font-size: 16px;
+    width: 100%;
+}
+.cis-private-class .cis-teacher-card .cis-content h5 {
+    margin-bottom: 5px;
+}
+ .cis-private-class .cis-card .MuiCardContent-root {
+    padding: 0 !important;
+}
+.cis-private-class {
+    background: #fcfcfc;
+    padding: 20px 45px;
+    margin-top: 35px;
+    border: 1px solid #005DB8;
+    border-radius: 10px;
+}
+.cis-private-class .MuiPaper-root {
+    background-color: transparent;
+}
+
+
+@media(max-width:1199px) {
+    .cis-private-class {
+        padding: 20px 20px;
+    }
+}
+@media(max-width:899px) {
+    .cis-private-class .cis-teacher-card {
+        padding-bottom: 20px;
+        border-style: solid none none;
+    }
+}

@@ -1,34 +1,20 @@
 import React from 'react';
 import './../QuickCallDashboard.css';
-// import Button from '@mui/material/Button';
-// import CssBaseline from '@mui/material/CssBaseline';
-// import Paper from '@mui/material/Paper';
-// import Box from '@mui/material/Box';
-// import Grid from '@mui/material/Grid';
 import MenuItem from '@mui/material/MenuItem';
 import Menu from '@mui/material/Menu';
-// import ListItem from '@mui/material/ListItem';
-
-
-// import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import Paper from '@mui/material/Paper';
 
 import LogoutIcon from '@mui/icons-material/Logout';
 
-// import { Box } from '@mui/system';
 import { Button, CardMedia } from '@mui/material';
-// import IconButton from '@mui/material/IconButton';
 import TextField from '@mui/material/TextField';
 import Box from '@mui/material/Box';
-// import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
-// import PhotoCamera from '@mui/icons-material/PhotoCamera';
 import CloudUploadIcon from '@mui/icons-material/CloudUpload';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
-// import CardActions from '@mui/material/CardActions';
 import Rating from '@mui/material/Rating';
 import Chip from '@mui/material/Chip';
 import WatchLaterIcon from '@mui/icons-material/WatchLater';
@@ -187,8 +173,8 @@ function QuickCallDashboard() {
 
             <Grid item xs={12} sm={12} md={12}>
               <div className="cis-btn-group">
-                <Button variant="contained" size='large'>Back</Button>
-                <Button variant="outlined" size='large'>Next</Button>
+                <Button variant="contained" size='large'>Next</Button>
+                <Button variant="outlined" size='large'>Back</Button>
               </div>
             </Grid>
 

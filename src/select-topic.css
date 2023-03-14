@@ -1,0 +1,39 @@
+.cis-title-2 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #000000;
+    margin-top: 0;
+}
+.cis-uploded-box {
+
+}
+.cis-uploded-box.upload-photo>div svg {
+    font-size: 50px;
+    color: #CCCCCC;
+}
+.cis-uploded-box.upload-photo {
+    height: 125px;
+}
+.cis-btn-wrap .MuiButton-outlinedPrimary {
+ background-color: #F5F5F5;
+ border-color: #F5F5F5 !important;
+ color: #999999 !important;
+ text-transform: none;
+font-size: 16px;
+}
+.cis-btn-wrap .MuiButton-outlinedPrimary:not(:last-child) {
+    margin-left: 15px;
+}
+[dir="rtl"]  .cis-btn-group.cis-btn-alignment {
+    text-align: left;
+}
+[dir="ltr"]  .cis-btn-group.cis-btn-alignment {
+    text-align: right;
+}
+
+[dir="rtl"] .cis-btn-group.cis-btn-alignment button:not(:last-child) {
+    margin-right: 20px;
+}
+[dir="rtl"] .cis-btn-group.cis-btn-alignment button:not(:last-child) {
+    margin-left: 20px;
+}

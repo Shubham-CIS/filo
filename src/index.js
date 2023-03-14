@@ -8,8 +8,10 @@ import Login from "./pages/Login";
 import Login2 from "./pages/Login2";
 // import Login3 from "./pages/Login3";
 import QuickCallDashboard from './pages/quick-call-dashboard';
-// import Test from "./pages/Test";
-
+import SelectTopic from './pages/select-topic';
+import SelectSubject from './pages/select-subject';
+import PrivateClass from './pages/private-class';
+import Schedule from './pages/schedule';
 
 
 export default function App() {
@@ -20,6 +22,10 @@ export default function App() {
         <Route path="/login2" element={<Login2 />} />
         {/* <Route path="/login3" element={<Login3 />} /> */}
         <Route path="/quick-call-dashboard" element={<QuickCallDashboard />} />
+        <Route path="/select-topic" element={<SelectTopic />} />
+        <Route path="/select-subject" element={<SelectSubject />} />
+        <Route path="/private-class" element={<PrivateClass />} />
+        <Route path="/schedule" element={<Schedule />} />
         
       </Routes>
     </BrowserRouter>
