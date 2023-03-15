@@ -12,6 +12,7 @@ import SelectTopic from './pages/select-topic';
 import SelectSubject from './pages/select-subject';
 import PrivateClass from './pages/private-class';
 import Schedule from './pages/schedule';
+import OtpVerification from './pages/otp-verification';
 
 
 export default function App() {
@@ -26,6 +27,7 @@ export default function App() {
         <Route path="/select-subject" element={<SelectSubject />} />
         <Route path="/private-class" element={<PrivateClass />} />
         <Route path="/schedule" element={<Schedule />} />
+        <Route path="/otp-verification" element={<OtpVerification />} />
         
       </Routes>
     </BrowserRouter>

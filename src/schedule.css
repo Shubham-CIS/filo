@@ -18,9 +18,13 @@
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.cis-schedule-cards .cis-tabs .MuiButton-endIcon {
+[dir="rtl"] .cis-schedule-cards .cis-tabs .MuiButton-endIcon {
     margin-left: 0;
     margin-right: 5px;
+}
+[dir="ltr"] .cis-schedule-cards .cis-tabs .MuiButton-endIcon {
+    margin-right: 0;
+    margin-left: 5px;
 }
 .cis-tab-btns .MuiButton-outlined {
     border-color: #CCCCCC;
@@ -34,6 +38,14 @@
     position: absolute !important;
     top: 100% !important;
     z-index: 5;
+}
+[dir="rtl"] .cis-filter-btn .MuiPopper-root {
+    right: 0;
+    left: auto !important;
+}
+[dir="ltr"] .cis-filter-btn .MuiPopper-root {
+    left: 0;
+    right: auto !important;
 }
 
 .cis-filter-btn .MuiButton-outlined {height: 50px;}
@@ -96,24 +108,38 @@
 }
 .cis-schedule-card .MuiPaper-root {
     background-color: transparent;
+}
+[dir="rtl"] .cis-schedule-card .MuiPaper-root {
     padding-left: 10%;
 }
-.cis-teacher-card .cis-content {
+[dir="ltr"] .cis-schedule-card .MuiPaper-root {
+    padding-right: 10%;
+}
+[dir="rtl"] .cis-teacher-card .cis-content {
     text-align: left;
+}
+[dir="ltr"] .cis-teacher-card .cis-content {
+    text-align: right;
 }
 .cis-info-list {
     margin-bottom: 0;
 }
 .cis-info-list li>svg {
     font-size: inherit;
-    margin-right: 7px;
     align-self: center;
+}
+[dir="rtl"] .cis-info-list li>svg {
+    margin-right: 7px;
+}
+[dir="ltr"] .cis-info-list li>svg {
+    margin-left: 7px;
 }
 
 .cis-info-list li {
     display: flex;
     flex-direction: row-reverse;
     margin-bottom: 7px;
+    color: #999999;
 }
 .cis-ongoing-btn {
     background: #CCCCCC !important;
@@ -131,6 +157,14 @@
 .cis-schedule-btn:focus {
     background: #dc7311 !important;
 }
+.cis-evaluation-btn {
+    background: #F0AF08 !important;
+    color: #FFFFFF !important;
+}
+.cis-evaluation-btn:hover,
+.cis-evaluation-btn:focus {
+    background: #dea006 !important;
+}
 .cis-complete-btn {
     background: #26B377 !important;
     color: #FFFFFF !important;
@@ -140,8 +174,260 @@
     background: #20a56c !important;
     color: #FFFFFF !important;
 }
+.cis-video-action  {
+    margin-top: 15px;
+}
+.cis-video-action button {
+    text-transform: none;
+}
+[dir="rtl"] .cis-video-action button:not(:last-child) {
+    margin-left: 15px;
+}
+[dir="ltr"] .cis-video-action button:not(:last-child) {
+    margin-right: 15px;
+}
+.cis-divider-2 {
+    margin: 20px 0;
+    border-color: #DDDDDD;
+}
+.cis-video-box img {
+    width: 100%;
+}
 
+.cis-schedule-detail .cis-schedule-card .cis-title-1 {
+    margin-bottom: 0;
+}
 
+.cis-title-3 {
+    margin: 0 0 0px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.cis-schedule-detail .cis-schedule-card  p {
+    margin: 0;
+    font-weight: 500;
+}
+
+.cis-schedule-detail .cis-schedule-card .cis-Chips-2 {
+    margin-bottom: 5px;
+}
+
+.cis-schedule-detail .cis-schedule-card .cis-teacher-card {
+    border-style: none;
+}
+.cis-notes-chathistory-btns {
+    padding: 0;
+    list-style: none;
+}
+[dir="rtl"] .cis-notes-chathistory-btns button:first-child {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+[dir="rtl"] .cis-notes-chathistory-btns button:last-child {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.cis-notes-chathistory-btns button {
+    font-size: 20px !important;
+    padding: 8px 20px !important;
+    text-transform: none;
+    line-height: 1.4 !important;
+    border: 1px solid #005db8;
+}
+.cis-notes-chathistory-btns .MuiButton-outlinedPrimary {
+    background-color: #F5F5F5;
+    border-color: #F5F5F5 !important;
+    color: #AAAAAA !important;
+}
+.space-20 {
+    height:1px;
+    width: 100%;
+    margin: 19px 0;
+}
+
+.cis-file-list {
+    margin: 0 -10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cis-file-list .cis-file-btn  {
+    margin: 0 10px 10px;
+}
+.cis-file-btn img {
+    height: 70px;
+    width: auto;
+}
+.cis-title-4 {
+    margin: 0 0 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.cis-notes-chathistory-content {
+    background-color: #F5F5F5;
+    padding: 30px;
+}
+.cis-test-page .cis-tab-btns {
+    margin: 0 -10px;
+}
+.cis-test-page .cis-tab-btns button {
+    margin: 0 10px;
+}
+
+.cis-video-action .MuiButton-endIcon  {
+    margin: 0;
+}
+[dir='rtl'] .cis-video-action .MuiButton-endIcon svg {
+    margin-left: 6px;
+}
+
+[dir='ltr'] .cis-video-action .MuiButton-endIcon svg {
+    margin-right: 6px;
+}
+
+.cis-file-wrap {
+    margin: 15px 20px 0;
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+}
+.cis-file-wrap img {
+    height: 70px;
+}
+.cis-file-wrap .cis-file-name {
+    display: block;
+}
+.cis-document-page .cis-schedule-card .MuiPaper-root {
+    padding: 0;
+}
+.cis-payment-page ,
+.cis-payment-detail-page {
+
+}
+.cis-link-wrap a {
+    display: inline-flex;
+    font-size: 16px;
+    color: #005DB8;
+    font-weight: 500;
+}
+.cis-link-wrap a svg {
+    font-size: 120%;
+    align-self: center;
+}
+[dir='rtl'] .cis-link-wrap a svg {
+    margin-left: 5px;
+}
+[dir='ltr'] .cis-link-wrap a svg {
+    margin-right: 5px;
+}
+.cis-payment-page .cis-teacher-card ,
+.cis-payment-detail-page .cis-teacher-card {
+    padding: 0;
+}
+.cis-payment-page .cis-teacher-card .cis-content {
+    text-align: center;
+}
+.cis-payment-page .cis-private-class .cis-Chips-2 ,
+.cis-payment-detail-page .cis-private-class .cis-Chips-2 {
+    margin-bottom: 0;
+}
+
+.cis-payment-page .cis-private-class .cis-card p ,
+.cis-payment-detail-page .cis-private-class .cis-card p {
+    font-weight: 500;
+    margin: 0 0;
+}
+
+.cis-invoice-btn {
+    box-shadow: none !important;
+    color: #005DB8 !important;
+    border-color: #005DB8 !important;
+}
+
+.cis-payment-info {
+
+}
+.cis-payment-info p {
+    font-weight: 500;
+    margin: 0px 0;
+}
+
+.cis-title-5 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #000000;
+    margin: 0 0 5px;
+}
+.cis-payment-detail-page .cis-private-class .cis-teacher-card .MuiButton-outlinedPrimary {
+    background: #ffffff;
+}
+.cis-send-message {
+    background: #D4EAFF;
+    padding: 6px 15px;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+.cis-recieved-message {
+    background: #EFEFEF;
+    padding: 6px 15px;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+.cis-file-message img {
+    width: 200px;
+    max-height: 200px;
+}
+[dir='rtl'] .cis-send-message,
+[dir='ltr'] .cis-recieved-message {
+    border-bottom-right-radius: 0px;
+}
+[dir='rtl'] .cis-recieved-message,
+[dir='ltr'] .cis-send-message {
+    border-bottom-left-radius: 0px;
+}
+.cis-chat-page .cis-schedule-card {
+    background-color: #ffffff;
+}
+
+.cis-chat-card {
+    background: #FCFCFC;
+    padding: 0;
+    margin-top: 35px;
+    border: 1px solid #005DB8;
+    border-radius: 10px;
+}
+.cis-chat {
+    padding: 40px 45px;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+.cis-chat-action {
+    padding: 20px 40px;
+}
+
+.cis-chat-action .MuiFormControl-fullWidth {
+    background: #F4F4F4;
+}
+
+[dir="rtl"] .cis-chat-action .MuiFormControl-fullWidth .MuiOutlinedInput-root {
+    padding-left: 10px;
+}
+[dir="ltr"] .cis-chat-action .MuiFormControl-fullWidth .MuiOutlinedInput-root {
+    padding-right: 10px;
+}
+
+.cis-chat-action .MuiFormControl-fullWidth .MuiOutlinedInput-root {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.cis-chat-action .MuiOutlinedInput-notchedOutline {
+    border-color: #F4F4F4;
+}
+.cis-chat-action {
+    
+}
 @media(max-width:1199px) {
     .cis-schedule-card {
         padding: 20px 20px;
@@ -152,5 +438,50 @@
         padding-bottom: 20px;
         border-style: solid none none;
     }
+     .cis-teacher-card .cis-content {
+        text-align: right;
+        padding: 0;
+    }
+    [dir="rtl"] .cis-teacher-card .cis-content {
+        text-align: right;
+    }
+    [dir="ltr"] .cis-teacher-card .cis-content {
+        text-align: left;
+    }
+    [dir="rtl"] .cis-teacher-card .cis-content {
+        padding: 0;
+    }
+    [dir="ltr"] .cis-teacher-card .cis-content {
+        padding: 0;
+    }
+    [dir="rtl"] .cis-info-list li {
+        justify-content: flex-end;
+    }
+    [dir="rtl"] .cis-info-list {
+        padding-right: 0;
+    }
+    
+    [dir="ltr"] .cis-info-list li {
+        flex-direction: row;
+    }
+    
+    [dir="ltr"] .cis-info-list {
+        padding-left: 0;
+    }
+    .cis-file-wrap img {
+        height: 60px;
+    }
+    .cis-payment-page .cis-teacher-card ,
+    .cis-payment-detail-page .cis-teacher-card {
+        padding-top: 20px;
+    }
+    .cis-chat {
+        max-height: 60vh ;
+    }
+    .cis-chat-action, .cis-chat {
+        padding: 15px 20px;
+    }
+
 }
+
 

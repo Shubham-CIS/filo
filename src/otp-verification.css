@@ -1,0 +1,9 @@
+.cis-otp-screen input {
+    font-size: 26px;
+    padding: 10px;
+}
+
+.cis-otp-screen .MuiOtpInput-Box {
+    width: 100%;
+    max-width: 400px;
+}
