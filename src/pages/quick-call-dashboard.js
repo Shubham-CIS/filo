@@ -137,7 +137,7 @@ function QuickCallDashboard() {
           <Grid className='whitebox-wrap cis-tutor-cards' container spacing={2}>
             <Grid item xs={12} sm={12} md={12} className="cis-tabs">
               <Box sx={{ width: '100%' }}>
-                <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
+                <Box sx={{ borderBottom: 1, borderColor: 'devider' }}>
                   <Tabs value={value} onChange={handleChange2} aria-label="basic tabs example">
                     <Tab label="Ask your question" {...a11yProps(0)} />
                     <Tab label="Take photo of the question" {...a11yProps(1)} />
@@ -300,7 +300,7 @@ function QuickCallDashboard() {
                 <Box sx={{ display: 'flex', flexDirection: 'column', flex: '1 1 auto' }}>
                   <CardContent sx={{ flex: '1 1 auto' }}>
                     <div className='cis-Chips'>
-                      <Chip icon={<WatchLaterIcon />} variant="outlined" label=" 10 mins ago" />
+                      <Chip icon={<WatchLaterIcon />} variant="outlined" label=" 10 mins ago" className='cis-chip' />
                       <Chip label="Chemistry" />
                       <Chip label="Science" />
                     </div>
@@ -348,7 +348,7 @@ function QuickCallDashboard() {
                   <Box sx={{ display: 'flex', flexDirection: 'column', flex: '1 1 auto' }}>
                     <CardContent sx={{ flex: '1 1 auto' }}>
                       <div className='cis-Chips'>
-                        <Chip icon={<WatchLaterIcon />} variant="outlined" label=" 10 mins ago" />
+                        <Chip icon={<WatchLaterIcon />} variant="outlined" label=" 10 mins ago" className='cis-chip' />
                         <Chip label="Chemistry" />
                         <Chip label="Science" />
                       </div>
@@ -396,7 +396,7 @@ function QuickCallDashboard() {
                 <Box sx={{ display: 'flex', flexDirection: 'column', flex: '1 1 auto' }}>
                   <CardContent sx={{ flex: '1 1 auto' }}>
                     <div className='cis-Chips'>
-                      <Chip icon={<WatchLaterIcon />} variant="outlined" label=" 10 mins ago" />
+                      <Chip icon={<WatchLaterIcon />} variant="outlined" label=" 10 mins ago" className='cis-chip' />
                       <Chip label="Chemistry" />
                       <Chip label="Science" />
                     </div>

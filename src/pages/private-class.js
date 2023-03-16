@@ -35,21 +35,6 @@ function PrivateClass() {
 
 
 
-  // const theme = useTheme();
-  // const fullScreen = useMediaQuery(theme.breakpoints.down('md'));
-  // const [openModal, setOpenModal] = React.useState(false);
-  
-
-  // const handleClickOpenModal = () => {
-  //   setOpenModal(true);
-  // };
-  // const modalhandleClose = () => {
-  //   setOpenModal(false);
-  // };
-
-
-
-
   return (
     <>
       <header className='mainHeader' component={Paper} elevation={6}>

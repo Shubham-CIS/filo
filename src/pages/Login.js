@@ -234,8 +234,8 @@ function Login() {
                 >
                   Send OTP
                 </Button>
-                <Grid container className='cis-divider-wrap'>
-                  <div className='cis-divider'>
+                <Grid container className='cis-devider-wrap'>
+                  <div className='cis-devider'>
                     <span>Or login using</span>
                   </div>
 

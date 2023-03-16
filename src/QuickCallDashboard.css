@@ -153,11 +153,12 @@
     width: 100%;
 }
 .cis-devider {
-    border: 1px solid #DDDDDD;
+    border-color: #DDDDDD;
     position: relative;
     z-index: 9999999;
     width: 100%;
     margin: 40px 0;
+    border-style: solid none none;
 }
 .cis-tutor-cards .cardContent {
     padding: 12px !important;
@@ -183,7 +184,7 @@
     font-weight: 500;
     margin-bottom: 5px;
 }
-.cis-Chips .MuiChip-root:first-child {
+/* .cis-Chips .MuiChip-root:first-child {
     padding: 0;
     background-color: transparent !important;
     border-color: transparent !important;
@@ -191,6 +192,12 @@
 .cis-Chips .MuiChip-root:first-child .MuiChip-label {
     padding-left: 2px;
     padding-right: 2px;
+} */
+.cis-Chips .MuiChip-root {
+    border-style: none;
+}
+.cis-Chips .MuiChip-root .MuiSvgIcon-root {
+    margin: 0 !important;
 }
 [dir="ltr"] .cis-Chips .MuiChip-icon {
     margin-left: 0;
@@ -198,9 +205,11 @@
 }
 [dir="ltr"] .cis-Chips .MuiChip-root { 
     margin-right: 15px;
+    /* padding-left: 10px; */
 }
 [dir="rtl"] .cis-Chips .MuiChip-root { 
     margin-left: 15px;
+    /* padding-right: 10px; */
 }
 .cis-card .MuiTypography-h5 {font-size: 22px;font-weight: 500;color: #000000;
     margin: 0 0 15px;
@@ -213,6 +222,9 @@
 }
 .cis-card-action {
     font-size: 16px;
+}
+.cis-card-action button {
+    font-family: inherit;
 }
 .cis-card-action .MuiRating-root {
     font-size: 16px;
@@ -317,6 +329,7 @@
     box-shadow: 3px 3px 22px rgb(0 0 0 / 8%);
     border-color: #ffffff !important;
     font-size: 16px !important;
+    box-shadow: none;
 }
 [dir="rtl"] .cis-teacher-card .cis-content {
     padding-right: 20px;
@@ -350,8 +363,8 @@
     [dir="ltr"] .cis-teacher-card {
         padding-left: 15%;
     }
-    .whitebox-wrap {
-        padding: 4%;
+    .whitebox-wrap, .welcome-user {
+        padding: 4% !important;
     }
 }
 @media(max-width:1199px) {
@@ -376,4 +389,5 @@
     .cis-space-50 {
         height: 30px;
     }
+    
 }

@@ -11,14 +11,14 @@
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
 }
-.or_divider {
+.or_devider {
     position: relative;
     display: flex;
     align-items: center;
     width: 100%;
 }
-.or_divider:before,
-.or_divider:after {
+.or_devider:before,
+.or_devider:after {
     content: "";
     display: block;
     flex: 1 1 auto;
@@ -26,7 +26,7 @@
     background: #aeaeae;
     width: 50%;
 }
-.or_divider span {
+.or_devider span {
     padding: 0 8px;
     font-size: 25px;
     font-weight: 500;

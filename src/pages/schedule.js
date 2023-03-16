@@ -185,7 +185,7 @@ function Schedule() {
           <div className='whitebox-wrap cis-schedule-cards pt-0'>
             <Grid item xs={12} sm={12} md={12} className="cis-tabs">
               <Box sx={{ width: '100%' }}>
-                <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
+                <Box sx={{ borderBottom: 1, borderColor: 'devider' }}>
                   <Tabs value={value} onChange={handleChange2} aria-label="basic tabs example">
                     <Tab label="Overview" {...a11yProps(0)} />
                     <Tab label="Schedule" {...a11yProps(1)} />
@@ -227,7 +227,7 @@ function Schedule() {
                     </div>
 
                     <div className='space-20'></div>
-                    <hr className='cis-divider-2' />
+                    <hr className='cis-devider-2' />
 
                     <div className='cis-schedule-card'>
                       <Grid container spacing={2}>
@@ -264,7 +264,7 @@ function Schedule() {
 
 
                     <div className='space-20'></div>
-                    <hr className='cis-divider-2' />
+                    <hr className='cis-devider-2' />
                     <div className='space-20'></div>
 
                     <div className='cis-notes-chathistory'>
@@ -1036,7 +1036,7 @@ function Schedule() {
                     </div>
 
                     <div className='space-20'></div>
-                    <hr className='cis-divider-2' />
+                    <hr className='cis-devider-2' />
                     <div className='space-20'></div>
 
                     <h3 className='cis-title-1'>Courses</h3>

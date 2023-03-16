@@ -1,0 +1,84 @@
+.cis-session-detail-page {
+    padding: 50px 60px;
+}
+.cis-question-card {
+
+}
+
+.cis-question-card .cis-card .MuiCardContent-root {
+    padding: 0 !important;
+}
+.cis-question-card .cis-card .cis-title-1 {
+    margin-bottom: 10px;
+}
+
+[dir='rtl'] .cis-Chips .MuiChip-root.cis-chip svg {
+    margin-right: 0;
+}
+[dir='ltr'] .cis-Chips .MuiChip-root.cis-chip svg {
+    margin-left: 0;
+}
+
+[dir="rtl"] .cis-session-detail-page .cis-teacher-card {
+    padding: 0;
+    border: none;
+}
+.cis-rating-box .MuiRating-root {
+    font-size: 16px;
+    position: relative;
+    top: 3px;
+    margin: 0 2px;
+}
+
+.cis-session-detail-page .cis-teacher-card .MuiButton-outlinedPrimary {
+    background-color: #F5F5F5 !important;
+    border-color: #EEEEEE !important;
+    color: #999999;
+    box-shadow: none;
+}
+.cis-session-detail-page .cis-teacher-card .cis-content h5 {
+    margin-bottom: 5px;
+}
+.space-30 {
+    height: 30px;
+    width: 100%;
+}
+.cis-dialog-action {
+    margin: 0 -10px;
+    padding: 10px 20px 0;
+}
+.cis-dialog-action button {
+    margin: 0 10px 20px;
+}
+.cis-dialog-2 h2 {
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.cis-dialog-2 .MuiDialog-paper {
+    padding: 20px;
+}
+.cis-checkList {
+    padding: 0;
+    list-style: none;
+}
+.cis-checkList li {
+    font-weight: 500;
+}
+.cis-file-list2 {
+    margin: 0 -10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cis-file-list2 .cis-file-btn2  {
+    margin: 0 10px 10px;
+}
+.cis-file-btn2 img {
+    height: 100px;
+    width: auto;
+}
+@media(max-width:1400px) {
+    .cis-session-detail-page {
+        padding: 4%;
+    }
+}

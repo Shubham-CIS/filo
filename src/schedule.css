@@ -115,10 +115,10 @@
 [dir="ltr"] .cis-schedule-card .MuiPaper-root {
     padding-right: 10%;
 }
-[dir="rtl"] .cis-teacher-card .cis-content {
+[dir="rtl"] .cis-test-page .cis-teacher-card .cis-content {
     text-align: left;
 }
-[dir="ltr"] .cis-teacher-card .cis-content {
+[dir="ltr"] .cis-test-page .cis-teacher-card .cis-content {
     text-align: right;
 }
 .cis-info-list {
@@ -186,7 +186,7 @@
 [dir="ltr"] .cis-video-action button:not(:last-child) {
     margin-right: 15px;
 }
-.cis-divider-2 {
+.cis-devider-2 {
     margin: 20px 0;
     border-color: #DDDDDD;
 }
@@ -235,6 +235,7 @@
     text-transform: none;
     line-height: 1.4 !important;
     border: 1px solid #005db8;
+    font-family: inherit;
 }
 .cis-notes-chathistory-btns .MuiButton-outlinedPrimary {
     background-color: #F5F5F5;
@@ -279,11 +280,11 @@
     margin: 0;
 }
 [dir='rtl'] .cis-video-action .MuiButton-endIcon svg {
-    margin-left: 6px;
+    margin-right: 6px;
 }
 
 [dir='ltr'] .cis-video-action .MuiButton-endIcon svg {
-    margin-right: 6px;
+    margin-left: 6px;
 }
 
 .cis-file-wrap {
@@ -428,6 +429,27 @@
 .cis-chat-action {
     
 }
+
+[dir="rtl"] .cis-payment-detail-page .cis-title-5,
+[dir="rtl"] .cis-payment-detail-page .cis-content .cis-link-wrap {
+    text-align: left;
+}
+[dir="ltr"] .cis-payment-detail-page .cis-title-5,
+[dir="ltr"] .cis-payment-detail-page .cis-content .cis-link-wrap {
+    text-align: right;
+}
+
+[dir="rtl"] 
+ .cis-schedule-detail .cis-schedule-card .cis-teacher-card .cis-content {
+    text-align: left;
+}
+
+[dir="ltr"] 
+ .cis-schedule-detail .cis-schedule-card .cis-teacher-card .cis-content {
+    text-align: right;
+}
+
+
 @media(max-width:1199px) {
     .cis-schedule-card {
         padding: 20px 20px;
@@ -442,10 +464,10 @@
         text-align: right;
         padding: 0;
     }
-    [dir="rtl"] .cis-teacher-card .cis-content {
+    [dir="rtl"] .cis-test-page .cis-teacher-card .cis-content {
         text-align: right;
     }
-    [dir="ltr"] .cis-teacher-card .cis-content {
+    [dir="ltr"] .cis-test-page .cis-teacher-card .cis-content {
         text-align: left;
     }
     [dir="rtl"] .cis-teacher-card .cis-content {
@@ -480,6 +502,24 @@
     }
     .cis-chat-action, .cis-chat {
         padding: 15px 20px;
+    }
+
+    [dir="rtl"] .cis-payment-detail-page .cis-title-5,
+    [dir="rtl"] .cis-payment-detail-page .cis-content .cis-link-wrap {
+        text-align: right;
+    }
+    [dir="ltr"] .cis-payment-detail-page .cis-title-5,
+    [dir="ltr"] .cis-payment-detail-page .cis-content .cis-link-wrap {
+        text-align: left;
+    }
+    [dir="rtl"] 
+    .cis-schedule-detail .cis-schedule-card .cis-teacher-card .cis-content {
+        text-align: right;
+    }
+
+    [dir="ltr"] 
+    .cis-schedule-detail .cis-schedule-card .cis-teacher-card .cis-content {
+        text-align: left;
     }
 
 }

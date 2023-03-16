@@ -1,0 +1,52 @@
+[dir="rtl"] .cis-session-history-page .cis-filter-btn .MuiButton-endIcon {
+    margin-left: 0;
+    margin-right: 5px;
+}
+[dir="ltr"] .cis-session-history-page .cis-filter-btn .MuiButton-endIcon {
+    margin-left: 5px;
+    margin-right: 0px;
+}
+
+
+.cis-session-history-page .cis-title-2col .MuiButton-sizeMedium {
+    font-size: 14px !important;
+    height: auto !important;
+    background-color: #F5F5F5 !important;
+    border-color: #DDDDDD !important;
+    color: #999999 !important;
+}
+.cis-search-btn .MuiFormControl-root  {
+    background: #F5F5F5;    
+}
+
+.cis-search-btn .MuiFormControl-root .MuiOutlinedInput-notchedOutline {
+    border-color: #DDDDDD;
+}
+
+.cis-search-btn .MuiFormControl-root input {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.cis-session-history-page .cis-teacher-card {
+    padding: 0;
+    border: none;
+    margin-bottom: 15px;
+}
+.cis-session-history-page .cis-teacher-card .cis-content h5 {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 0 5px;
+}
+.cis-session-history-page .cis-rating-box .MuiRating-root, .cis-rating-box {
+    font-size: 18px;
+}
+
+.cis-session-history-page .cis-teacher-card .MuiButton-outlinedPrimary {
+    border-color: #005DB8 !important;
+}
+.cis-session-history-page .cis-teacher-card .cis-connect-btn {
+    background: #F5F5F5 !important;
+    border-color: #EEEEEE !important;
+    box-shadow: none;
+    color: #999999;
+}

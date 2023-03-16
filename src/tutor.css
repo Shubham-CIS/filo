@@ -1,0 +1,88 @@
+.cis-tutor-info .cis-card {
+    background-color: transparent;
+}
+.cis-tutor-info .cis-title-2 {
+    color: #999999;
+}
+.cis-tutor-info .cis-card .cis-card-action .MuiButton-outlinedPrimary {
+    padding-left: 20px;
+    padding-right: 20px;
+    border-color: #005DB8 !important;
+    color: #005DB8 !important;
+    text-transform: none !important;
+    font-size: 18px !important;
+}
+.cis-tutor-info .cis-card-action button {
+    margin: 0 10px 10px;
+}
+.cis-tutor-info .cis-card-action {
+    margin: 0 -10px;
+}
+.cis-tutor-info .MuiBox-root {
+    /* align-self: center; */
+}
+.cis-Chips .MuiChip-root.cis-chip {
+    padding: 0;
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+.cis-Chips .MuiChip-root.cis-chip .MuiChip-label {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.cis-Chips .MuiChip-root.cis-chip svg {
+    font-size: inherit;
+}
+.cis-recording {
+    color: #005DB8;
+    display: inline-flex;
+    font-weight: 500;
+}
+
+[dir="rtl"] .cis-recording svg {
+    margin-left: 5px;
+}
+.cis-recording {
+    color: #005DB8;
+    display: inline-flex;
+    font-weight: 500;
+}
+.cis-recording svg {
+    margin: 0 !important;
+    font-size: 16px;
+}
+.cis-recording span {
+    display: inline-block;
+    background: #F5F5F5;
+    border: 2px solid #EEEEEE;
+    line-height: 0;
+    padding: 4px;
+    border-radius: 4px;
+}
+[dir="rtl"] .cis-recording span {
+    margin-left: 5px;
+}
+[dir="ltr"] .cis-recording span {
+    margin-right: 5px;
+}
+.cis-tutor-page .cis-card-action {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.cis-tutor-page .cis-card-action button {
+}
+
+.cis-favourite-btn-wrap {
+    white-space: nowrap;
+}
+.cis-tutor-page .cis-tutor-info .cis-card .cis-card-action .cis-favourite-btn-wrap button.MuiButton-outlinedPrimary {
+    min-width: 190px;
+    color: #999999 !important;
+    border-color: #CCCCCC !important;
+}
+
+.cis-tutor-page .cis-tutor-info .cis-title-2 {
+    margin-top: 15px;
+}

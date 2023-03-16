@@ -59,3 +59,22 @@
     text-align: center;
     margin-bottom: 10px;
 }
+
+@media(max-width:899px) {
+    .cis-wait-box {
+        padding: 30px;
+        max-width: 200px;
+    }
+    
+    .cis-wait-box-2 {
+        padding: 30px;
+    }
+    
+    .cis-wait-box-3 {
+        padding: 20px;
+    }
+    
+    .cis-wait-box span {
+        font-size: 18px;
+    }
+}

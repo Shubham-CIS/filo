@@ -11,14 +11,14 @@
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
 }
-.cis-divider {
+.cis-devider {
     position: relative;
     display: flex;
     align-items: center;
     width: 100%;
 }
-.cis-divider:before,
-.cis-divider:after {
+.cis-devider:before,
+.cis-devider:after {
     content: "";
     display: block;
     flex: 1 1 auto;
@@ -26,7 +26,7 @@
     background: #aeaeae;
     width: 50%;
 }
-.cis-divider span {
+.cis-devider span {
     padding: 0 8px;
     font-size: 20px;
     font-weight: 500;

@@ -13,6 +13,9 @@ import SelectSubject from './pages/select-subject';
 import PrivateClass from './pages/private-class';
 import Schedule from './pages/schedule';
 import OtpVerification from './pages/otp-verification';
+import Tutor from './pages/tutor';
+import SessionDetail from './pages/session-detail';
+import SessionHistory from './pages/session-history';
 
 
 export default function App() {
@@ -28,6 +31,9 @@ export default function App() {
         <Route path="/private-class" element={<PrivateClass />} />
         <Route path="/schedule" element={<Schedule />} />
         <Route path="/otp-verification" element={<OtpVerification />} />
+        <Route path="/tutor" element={<Tutor />} />
+        <Route path="/session-detail" element={<SessionDetail />} />
+        <Route path="/session-history" element={<SessionHistory />} />
         
       </Routes>
     </BrowserRouter>

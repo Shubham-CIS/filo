@@ -15,11 +15,6 @@ import Dialog from '@mui/material/Dialog';
 import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
 import DialogTitle from '@mui/material/DialogTitle';
-import Slide from '@mui/material/Slide';
-import { TransitionProps } from '@mui/material/transitions';
-
-
-
 
 
 function SelectSubject() {
@@ -34,20 +29,7 @@ function SelectSubject() {
     setAnchorEl(null);
   };
 
-
-  const Transition = React.forwardRef(function Transition(
-    props: TransitionProps & {
-      children: React.ReactElement<any, any>;
-    },
-    ref: React.Ref<unknown>,
-  ) {
-    return <Slide direction="up" ref={ref} {...props} />;
-  });
-
-  // const theme = useTheme();
-  // const fullScreen = useMediaQuery(theme.breakpoints.down('md'));
   const [openModal, setOpenModal] = React.useState(false);
-  
 
   const handleClickOpenModal = () => {
     setOpenModal(true);
@@ -180,7 +162,6 @@ function SelectSubject() {
 
       <Dialog
         open={openModal}
-        TransitionComponent={Transition}
         keepMounted
         onClose={modalhandleClose}
         aria-describedby="alert-dialog-slide-description"
